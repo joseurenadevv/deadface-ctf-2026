@@ -24,7 +24,7 @@
 
 # DEADFACE CTF 2026 — Writeups
 
-Writeups del equipo **HELIX** en el **DEADFACE CTF 2026** (`ctf.deadface.io`), documentados por **Kwrtesy** (José Félix Ureña Guevara). 27 retos resueltos a lo largo de 5 categorías, cada una con su metodología, herramientas, código de solución y lecciones aprendidas.
+27 retos que resolví personalmente compitiendo con el equipo **HELIX** en el **DEADFACE CTF 2026** (`ctf.deadface.io`), documentados por mí — **Kwrtesy** (José Félix Ureña Guevara). 5 categorías, cada una con su metodología, herramientas, código de solución y lecciones aprendidas.
 
 > Objetivo de este repo: portafolio técnico público, no un writeup "de carrera contra el tiempo" — cada entrada documenta el razonamiento completo, incluyendo los caminos que **no** funcionaron.
 
@@ -51,7 +51,7 @@ Equipo **HELIX** (Panamá) — **puesto #110 de más de 1000 equipos** a nivel i
 - Credencial verificable (Open Badges 3.0, firmada por Cyber Hacktics): [credforge.app/credentials/34a9c247-964a-45d6-87e1-5af8beb3734f](https://credforge.app/credentials/34a9c247-964a-45d6-87e1-5af8beb3734f)
 - Marcador del equipo: `ctf.deadface.io/team` — miembros `kwrtesy` (capitán), `DoSan`, `Yassell`, `Sebastián Rodríguez`.
 
-> Nota de honestidad: los 8682 puntos y el puesto #110 son del **equipo HELIX en conjunto** — mis compañeros resolvieron retos que no están en este repo. Lo que documento acá es específicamente lo que **yo** resolví y escribí, no el total del equipo.
+> **Qué es de quién:** el puesto #110 y los 8682 puntos son el resultado del **equipo HELIX en conjunto** — así puntúa DEADFACE CTF, por equipo, no por persona. Dicho eso, **los 27 retos de este repo los resolví yo personalmente**, de principio a fin; mis compañeros de equipo resolvieron retos adicionales, que no están documentados acá porque no son mi trabajo. Cada flag de cada carpeta es verificable: el comando, el código y el razonamiento están ahí para que cualquiera pueda reproducirlo.
 
 ## Índice por categoría
 
