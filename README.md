@@ -17,6 +17,11 @@
   <img src="https://img.shields.io/badge/hostbusters-5%20retos-e36209?style=flat-square" alt="hostbusters count">
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Rank-%23110%20de%20%2B1000%20equipos-2ea043?style=for-the-badge&labelColor=0d1117" alt="ranking badge">
+  <img src="https://img.shields.io/badge/Puntos-8682-2ea043?style=for-the-badge&labelColor=0d1117" alt="puntos badge">
+</p>
+
 # DEADFACE CTF 2026 — Writeups
 
 Writeups del equipo **HELIX** en el **DEADFACE CTF 2026** (`ctf.deadface.io`), documentados por **Kwrtesy** (José Félix Ureña Guevara). 27 retos resueltos a lo largo de 5 categorías, cada una con su metodología, herramientas, código de solución y lecciones aprendidas.
@@ -34,6 +39,19 @@ Resolver cada "bandera" significa entender cómo funciona algo por dentro (un pr
 Soy estudiante de ciberseguridad, **no profesional ni senior** — este es mi tercer CTF, pero el primero que documento de verdad. Lo resolví yo, solo, con dos apoyos que uso de forma honesta y los menciono porque es la verdad: busqué información en internet cuando no sabía por dónde empezar, y usé herramientas de IA (Claude Code, opencode) como punto de partida para pensar distinto cuando estaba trabado — nunca para que me resolvieran el reto. La IA me tiraba ideas o perspectivas que no había visto del enunciado; la implementación, el entender *por qué* funcionaba, y el armar el exploit o el script, lo hice yo.
 
 Para ser transparente: en varios de estos retos me trabé bastante, me tomó horas, hubo momentos en que dudé si esto era lo mío. Las técnicas más avanzadas (como SROP o el anti-debug de Cereal Killer 03) no las sabía de entrada — las aprendí investigando específicamente para ese reto. Eso está bien y es parte real del proceso de aprender seguridad: nadie sale sabiendo esto de memoria, se construye reto por reto.
+
+## Resultado oficial
+
+<p align="center">
+  <img src="assets/badge-competitor.png" alt="DEADFACE CTF 2026 Competitor badge" width="180">
+</p>
+
+Equipo **HELIX** (Panamá) — **puesto #110 de más de 1000 equipos** a nivel internacional, **8682 puntos**, en DEADFACE CTF 2026: Operation Kingmaker, organizado por Cyber Hacktics.
+
+- Credencial verificable (Open Badges 3.0, firmada por Cyber Hacktics): [credforge.app/credentials/34a9c247-964a-45d6-87e1-5af8beb3734f](https://credforge.app/credentials/34a9c247-964a-45d6-87e1-5af8beb3734f)
+- Marcador del equipo: `ctf.deadface.io/team` — miembros `kwrtesy` (capitán), `DoSan`, `Yassell`, `Sebastián Rodríguez`.
+
+> Nota de honestidad: los 8682 puntos y el puesto #110 son del **equipo HELIX en conjunto** — mis compañeros resolvieron retos que no están en este repo. Lo que documento acá es específicamente lo que **yo** resolví y escribí, no el total del equipo.
 
 ## Índice por categoría
 
