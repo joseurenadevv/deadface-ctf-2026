@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="55%" stop-color="#1a0f1f"/>
+      <stop offset="100%" stop-color="#2a0f17"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff4d6d"/>
+      <stop offset="50%" stop-color="#ff8f5e"/>
+      <stop offset="100%" stop-color="#ff4d6d"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="260" fill="url(#bg)"/>
+  <rect width="1200" height="260" fill="url(#grid)"/>
+
+  <!-- scanline accents -->
+  <line x1="0" y1="40" x2="1200" y2="40" stroke="#ff4d6d" stroke-opacity="0.15" stroke-width="1"/>
+  <line x1="0" y1="220" x2="1200" y2="220" stroke="#ff8f5e" stroke-opacity="0.15" stroke-width="1"/>
+
+  <!-- prompt glyph -->
+  <text x="70" y="108" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="22" fill="#ff8f5e" opacity="0.85">root@helix:~$</text>
+
+  <text x="70" y="160" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="56" font-weight="700" fill="url(#glow)">DEADFACE CTF 2026</text>
+
+  <text x="70" y="200" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="22" fill="#9aa4b2">Team HELIX &#8212; operative: Kwrtesy &#8212; writeups &amp; flags</text>
+
+  <!-- blinking cursor -->
+  <rect x="865" y="178" width="14" height="26" fill="#ff4d6d">
+    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
