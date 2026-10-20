@@ -1,5 +1,7 @@
 # Hostbusters — Post-explotación Linux (charon)
 
+**En palabras simples:** "Post-explotación" es lo que pasa *después* de ya haber entrado a un sistema con un usuario de bajos privilegios — el equivalente a haber entrado al edificio por la puerta de empleados, pero necesitar llegar a la oficina del jefe. Esta serie es una cadena de 5 pasos donde cada "usuario" comprometido deja, sin querer, una pista que permite saltar al siguiente usuario con más permisos — un historial de comandos mal borrado, una contraseña vieja en un repositorio de código, un permiso de administrador mal configurado — hasta llegar lo más arriba posible dentro del mismo sistema.
+
 Categoría: Post-explotación / Linux. Caja "charon" (ops/staging interno de DEADFACE, workstream "Kingmaker"), accedida vía web-shell (ttyd), con un foothold inicial como el usuario de servicio `svc-deploy`. La caja es **desechable**: cada sesión del web-shell es una copia fresca, así que cada flag se agarra en el momento en que se encuentra — hay que rehacer todos los pasos anteriores cada vez que se recarga/reabre el web-shell.
 
 Entorno base: contenedor Debian 13 (kernel 6.12.111+deb13), overlay2 (Docker).

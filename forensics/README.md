@@ -1,5 +1,7 @@
 # Forensics — Tráfico de red y esteganografía EXIF
 
+**En palabras simples:** "Forensics" es investigar evidencia digital después de que algo ya pasó — como un forense que examina la escena de un crimen, pero acá la escena es un archivo de tráfico de red capturado o un grupo de fotos. La idea es encontrar la "aguja en el pajar": entre miles de conexiones normales a internet, detectar las pocas que son sospechosas; o descubrir que una imagen que parece una foto común en realidad tiene un mensaje secreto escondido en sus datos internos (metadatos), invisible a simple vista.
+
 Categoría: Forensics / Network. Dos retos independientes: exfiltración de datos robados disfrazada de tráfico web ordinario en una captura pcap, y un mensaje oculto repartido en los metadatos EXIF de 20 imágenes JPG "no relacionadas".
 
 ## Reto 1 — Tráfico: exfiltración HTTP (PCAP03.pcap)

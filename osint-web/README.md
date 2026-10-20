@@ -1,5 +1,7 @@
 # OSINT / Web — GhostTown / Alice / Maude / Doomscroll / Health Spark / File Dump
 
+**En palabras simples:** "OSINT" (Open-Source Intelligence) es investigar usando solo información pública — como un detective que arma un perfil completo de alguien revisando sus redes sociales, comentarios viejos, y datos que la gente deja sin querer (un archivo que revela en qué computadora se escribió, una foto con ubicación GPS). "Web" es encontrar y explotar errores en páginas y aplicaciones web reales — por ejemplo, un formulario de login que, si le mandás el texto correcto, te deja entrar sin saber la contraseña. Esta serie combina ambas cosas: investigar personajes ficticios de la trama del CTF y, por el camino, romper varias webs mal protegidas.
+
 Categoría: OSINT / Web. Ocho retos: un sitio web (blog de viajes de "Alice"), su certificado TLS, una investigación OSINT sobre una extensión de navegador construida con la IA "Maude" por el operativo b1tfr34k, claves SSH públicas filtradas, una red social ficticia ("Doomscroll") con esteganografía Unicode, un portal de RRHH ("Health Spark") vulnerable a SQLi, y un volcado de documentos de un portátil con una identidad robada.
 
 ## Reto 1 — GhostTown: "encuentra el blog de viajes de Alice"

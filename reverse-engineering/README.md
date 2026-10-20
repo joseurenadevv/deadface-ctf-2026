@@ -1,5 +1,7 @@
 # Reverse Engineering — Cereal Killer / Spooky Cereals / iOS
 
+**En palabras simples:** "Reverse engineering" (ingeniería inversa) es entender cómo funciona un programa sin tener su código fuente — como desarmar un reloj para entender el mecanismo sin el manual del fabricante. Te dan solo el archivo ejecutable (los "ceros y unos" ya compilados) y tenés que leer ese código de máquina para descubrir qué contraseña espera, cómo cifra sus datos, o qué mensaje secreto esconde. Esta categoría tiene su propia historia: una serie de "aliens de cereal" (Insectoids, Nordics, Reptilians, Greys) cada uno escondiendo su contraseña favorita, más dos apps de celular (iOS) con información de pacientes escondida en sus archivos.
+
 Categoría: Reverse Engineering. Serie de crackmes "Spooky Cereals" / "Cereal Killer" (binarios de distintas plataformas) más retos independientes ("It But A Wee Bit Reverse" / re02, "Keypad-Oracle" / iOS, "Aurora Patient Portal" / iOS app con 4 tareas). Cada reto entrega un binario a analizar; hay que recuperar un password (en la serie Cereal Killer, siempre el cereal favorito de la especie alien del reto) y, a menudo, una flag escondida tras chequeos internos.
 
 **Herramientas usadas en la serie:** `file`, `nm`, `readelf`, `objdump`, `r2`, `rabin2`, `strings`, `gdb`, `7z`, `unzip`, `john` (+ rockyou), `curl`, capstone, Python 3, `openssl`, `exiftool`, `sqlite3`, `plutil`/`plistlib`.

@@ -2,6 +2,8 @@
 
 > The Crypt → Skeleton Key → Cursed Mirror → Your Library Card → Necromancy
 
+**En palabras simples:** "Pwn" es la categoría de explotar programas haciéndolos fallar a propósito. Si le mandás a un programa más datos de los que espera recibir, a veces esos datos se "desbordan" y terminan sobrescribiendo partes de la memoria que controlan qué hace el programa después — como si al llenar un vaso de agua, el exceso se derramara justo sobre el interruptor de la luz y la apagara. Con cuidado, ese desborde se puede dirigir para que el programa ejecute lo que vos querés en vez de lo que estaba programado para hacer. Estos 5 retos van de ese truco básico a versiones cada vez más protegidas, donde hay que esquivar cada "candado" que el sistema operativo pone para evitarlo.
+
 Categoría: Pwn / Ingeniería inversa. Binarios ELF 64-bit servidos por red, presentados como el "calling card" de DEADFACE. Hilo técnico común: desbordamiento de pila, dificultad creciente: ret2win básico → ROP con argumentos → ROP + reutilización de código ofuscado del propio binario → ret2libc con PIE → SROP en binario freestanding.
 
 **Método general seguido en toda la serie:** verificar SHA256 → `file`/`readelf`/`nm` → análisis de funciones (`objdump`/capstone, incluso en memoria desde el ZIP sin escribir a disco) → identificar el desbordamiento y su offset → elegir técnica según mitigaciones presentes → exploit con pwntools.
